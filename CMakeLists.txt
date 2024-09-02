@@ -7,6 +7,8 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
+set(CMAKE_BUILD_TYPE "RelWithDebInfo")
+
 project(rapidfuzz LANGUAGES C CXX)
 
 include(CMakePrintHelpers)
