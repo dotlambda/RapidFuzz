@@ -7,6 +7,7 @@
 
 #include "rapidfuzz.h"
 
+#define _DISABLE_CONSTEXPR_MUTEX_CONSTRUCTOR
 #define PYTHON_VERSION(major, minor, micro) ((major << 24) | (minor << 16) | (micro << 8))
 
 #if defined(__amd64__) || defined(__amd64) || defined(__x86_64__) || defined(__x86_64) || defined(_M_X64) || \
